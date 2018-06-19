@@ -1,0 +1,6 @@
+http://example.com/filepath1	file1
+http://example.com/filepath2	file2
+http://example.com/filepath3	file3
+http://example.com/filepath4	file4
+http://example.com/filepath5	file5
+
