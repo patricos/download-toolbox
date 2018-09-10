@@ -4,17 +4,17 @@ This project entails a few scripts for automatically downloading a list of URLs 
 
 Bash.  No rocket science.  The really descent performance (compared with no-parallel download engines) comes from the fact that the bandwidth is the limitation, and not the latency of http connection initiation.
 
-## Repeting-download gauge
+## Download speed/throughput gauge
 
-Scripts triggered from cron for the purpose of verifying the properties of file-serving services periodically in the required range of time.
+Is a cron-triggered script that verifies the performance-properties of file-serving services. It can be run periodically, as desired, as set in the crontab.
 
 ## Multi-file download tool
 
-Scripts that harvest massive numbers of files specified on the list.
+Are scripts that harvest massive numbers of files specified on the list.
 
 ## Other tools
 
-One other tool at the moment: life monitor a.k.a. "change observer" ;-) .  It either displays the sizes of the files in the current directory when no parameter specified (so you can observe your log-files grow) or by specifying a dirname as a parameter you can observe how quickly the number of files in the target directory grows.
+One other tool is available at the moment: heartbeat monitor a.k.a. "change observer" ;-) .  It either displays the sizes of the files in the current directory when no parameter specified (so you can observe your log-files grow) or by specifying a dirname as a parameter you can observe how quickly the number of files in the target directory grows.
 
 # How to run it
 
